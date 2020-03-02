@@ -1,0 +1,113 @@
+@meta-charset="UTF-8"
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'ＭＳ 明朝','serif','arial','sans-serif','fantasy','ＭＳ Ｐゴシック','メイリオ', 'Meiryo', 'apple-system','BlinkMacSystemFont','Hiragino Sans','Hiragino Kaku Gothic ProN',
+		"segoe ui",'游ゴシック  Medium','MS PGothic';
+  background: url("images/vintage-wallpaper.jpg") no-repeat;
+  background-size: cover;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+
+h1{
+  margin: 0;
+  float: left;
+}
+
+.header_inner{
+  width:100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background: #330000;
+}
+.nav{
+  float: right;
+  margin-top: 60px;
+}
+.nav li{
+  margin-left: 20px;
+  padding-right: 50px;
+  list-style: none;
+  display: inline-block;
+}
+.nav li a{
+  text-decoration: none;
+  color: #FF367F;
+  font-size: 20px;
+}
+.nav li a:hover{
+  color: #FF0000;
+}
+.logo{
+  width: 100px;
+}
+.bxslider{
+  margin: 0 15%;
+  padding-bottom: 50px;
+}
+.bxslider img{
+  width: 70%;
+  height: 500px;
+  box-shadow: 10px 10px 20px gray,
+  3px 3px 8px rgba(255,255,255,0.8) inset;
+}
+.aboutus{
+  position: relative;
+}
+.aboutus_front{
+  width: 25%;
+  height: 10%;
+  position: absolute;
+  right: 27%;
+  bottom: 87%;
+}
+.aboutus_bg{
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 40%;
+}
+.aboutus_h2{
+  position: absolute;
+  right: 25%;
+  bottom: 74%;
+  color: #FF82B2;
+  font-size: 42px;
+}
+.aboutus_p{
+  position: absolute;
+  right: 20%;
+  bottom: 64%;
+  color: #FF82B2;
+  font-size: 20px;
+}
+.information{
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+  color: #FF82B2;
+  font-size: 20px;
+}
+.map{
+  position: absolute;
+  right: 23%;
+  bottom: 20%;
+}
+
+footer{
+  width:100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #330000;
+  text-align: center;
+  color: #FF367F;
+}

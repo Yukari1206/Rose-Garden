@@ -1,0 +1,78 @@
+<!Doctype html>
+<html>
+<head>
+<meta-charset="@UTF-8">
+<title>Flora's garden</title>
+<link rel="stylesheet" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="jquery.bxslider.min.js"></script>
+<link href="query.bxslider.css" rel="stylesheet" />
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider({
+  auto: true,
+  pager: false,
+  pause: 3000,
+  speed: 1000,
+});
+});
+</script>
+</head>
+<body>
+<header>
+  <div class="header_inner">
+  <img class="logo" src="images/logo.png" alt="Flora's gardenロゴ">
+<ul class="nav">
+  <li><a href="index.html">Flora's gardenについて</a></li>
+  <li><a href="rose.html">バラのご紹介</a></li>
+  <li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</div>
+</header>
+
+<main>
+<div class="wrapper">
+<section class="main_aboutus">
+  <ul class="bxslider">
+  <li><img src="images/welcome.png"></li>
+  <li><img src="images/rose-garden.jpg"></li>
+  <li><img src="images/rose-garden2.jpg"></li>
+  <li><img src="images/rose-garden3.jpg"></li>
+  <li><img src="images/rose-garden4.jpg"></li>
+  <li><img src="images/rose-garden5.jpg"></li>
+  </ul>
+
+<div class="aboutus">
+  <img class="aboutus_bg" src="images/background2.jpg">
+  <img class="aboutus_front" src="images/aboutus.png">
+  <h2 class="aboutus_h2">Flora's gardenについて</h2>
+  <p class="aboutus_p">Flora's gardenは都会の中にある小さなバラ園です。<br>
+     周りにはたくさんの高層ビルが立ち並んでいますが<br>
+     一度お庭に足を踏み入れれば、そこはもうお伽の国。<br>
+     ぜひFlora's gardenで夢のような時間をお過ごしください。</p>
+
+
+<div class="information">
+  <table>
+    <tr>
+      <th>連絡先</th>
+      <td>Mail: info@flora's-garden.com / TEL: 045-572-9371</td>
+    </tr>
+    <tr>
+      <th>所在地</th>
+      <td>〒230-0065 神奈川県横浜市中区二丁目3-14-5</td>
+    </tr>
+  </table>
+</div>
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.9667826702043!2d139.60888637961278!3d35.45561678034424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c75af2ebe29%3A0xb16e9bc6f41c49b2!2z5qiq5rWc44Kk44Oz44Kw44Oq44OD44K344Ol44Ks44O844OH44Oz!5e0!3m2!1sja!2sjp!4v1566221560856!5m2!1sja!2sjp"
+   width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</section>
+</div>
+</main>
+<footer>
+  <p class="center">Copyright &copy; Intense Inc. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

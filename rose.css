@@ -1,0 +1,125 @@
+@meta-charaset="UTF-8"
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'ＭＳ 明朝','serif','arial','sans-serif','fantasy','ＭＳ Ｐゴシック','メイリオ', 'Meiryo', 'apple-system','BlinkMacSystemFont','Hiragino Sans','Hiragino Kaku Gothic ProN',
+		"segoe ui",'游ゴシック  Medium','MS PGothic';
+  background: url("images/vintage-wallpaper.jpg") no-repeat;
+  background-size: cover;
+}
+
+.header_inner{
+  width:100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background: #330000;
+}
+.nav{
+  float: right;
+  margin-top: 60px;
+}
+.nav li{
+  margin-left: 20px;
+  padding-right: 50px;
+  list-style: none;
+  display: inline-block;
+}
+.nav li a{
+  text-decoration: none;
+  color: #FF367F;
+  font-size: 20px;
+}
+.nav li a:hover{
+  color: #FF0000;
+}
+.logo{
+  width: 100px;
+}
+
+.choose_rose{
+  position: relative;
+}
+
+.rose_bg{
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 40%;
+}
+.choose{
+  width: 25%;
+  height: 10%;
+  position: absolute;
+  right: 27%;
+  bottom: 87%;
+}
+
+.choose_h2{
+  position: absolute;
+  right: 30%;
+  bottom: 76%;
+  color: #FF82B2;
+  font-size: 42px;
+}
+.choose_p{
+  position: absolute;
+  right: 20%;
+  bottom: 66%;
+  color: #FF82B2;
+  font-size: 20px;
+}
+
+.rose_color1{
+  position: absolute;
+  right: 48%;
+  bottom: 50%;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+.rose_color2{
+  position: absolute;
+  right: 32%;
+  bottom: 50%;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+.rose_color3{
+  position: absolute;
+  right: 17%;
+  bottom: 50%;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+.rose_color4{
+  position: absolute;
+  right: 41%;
+  bottom: 35%;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+.rose_color5{
+  position: absolute;
+  right: 25%;
+  bottom: 35%;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+
+
+footer{
+  width:100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #330000;
+  text-align: center;
+  color: #FF367F;
+}
